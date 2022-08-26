@@ -1,0 +1,191 @@
+body {
+  font-family: "Poppins", sans-serif;
+  margin: 0%;
+}
+
+.top-background {
+  background-image: url(images/donation1.jpg);
+  background-color: ;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: grid;
+  justify-content: center;
+  height: 600px;
+}
+
+h1 {
+  font-size: 60px;
+  font-weight: 900;
+  text-align: center;
+  color: white;
+  width: 700px;
+  display: flex;
+  margin: auto;
+  margin-top: 15%;
+}
+
+.topParaStyle {
+  text-align: center;
+  color: white;
+  width: 800px;
+  margin: 24px 50px;
+  margin-left: 41px;
+}
+
+.center-item {
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+  font-weight: 700;
+  color: white;
+  background-color: #ff5959;
+  padding: 10px 29px;
+  border-radius: 7px;
+}
+
+h2 {
+  font-size: 44px;
+  text-align: center;
+  margin-top: 50px;
+}
+
+.ParaStyle {
+  text-align: center;
+  width: 40%;
+  margin: 0 auto;
+}
+.box-parent {
+  display: flex;
+  justify-content: center;
+  align-self: center;
+}
+
+.box-style {
+  font-size: 30px;
+  font-weight: 900;
+  padding: 50px;
+  color: #707070;
+  background-color: #fafafa;
+  border-radius: 15px;
+  margin: 30px;
+}
+
+#highlighted-area {
+  border: 3px solid #ff5959;
+  background: #ffeeee;
+}
+
+input[type="number"] {
+  display: block;
+  border: none;
+  border-bottom: 2px solid #707070;
+  width: 50%;
+  margin: 40px auto;
+  padding: 10px;
+  text-align: center;
+  font-size: 30px;
+  font-family: sans-serif;
+}
+
+.margin-bottom {
+  margin-bottom: 200px;
+}
+
+.margin-top {
+  margin-top: 110px;
+}
+
+.DonationPlansDiv {
+  display: flex;
+  justify-content: center;
+}
+.DonationPlansBox {
+  background-color: rgb(253, 253, 171);
+  padding: 30px;
+  margin: 50px;
+  border-radius: 15px;
+  width: 300px;
+  height: 200px;
+}
+
+.color-red {
+  background-color: #ffc6c6;
+}
+.color-blue {
+  background-color: #c4dafa;
+}
+
+.footer-div {
+  text-align: center;
+  background-color: black;
+  padding: 20px;
+}
+
+#footer-h3 {
+  color: #ff5959;
+  font-family: "Mochiy Pop P One", sans-serif;
+  font-size: 30px;
+}
+
+#footer-p {
+  color: #c4dafa;
+}
+
+/* ------------------ Bonus section -------------- */
+
+#bottom-form {
+  display: flex;
+  justify-content: center;
+  margin: 63px 300px;
+  overflow: hidden;
+  background-color: #fff4d6;
+  padding: 100px 50px;
+}
+#bottom-input {
+  width: 300px;
+  height: 50px;
+  border: none;
+  background-color: rgb(224, 224, 224);
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  padding: 0 40px;
+  text-align: center;
+}
+
+#bottom-button {
+  background-color: #ff5959;
+  border: none;
+  width: 200px;
+  border-bottom-right-radius: 10px;
+  border-top-right-radius: 10px;
+  font-size: larger;
+  font-weight: 700;
+  color: #fafafa;
+}
+
+.bonus-sec {
+  padding: 42px 129px;
+}
+
+.bonus-div {
+  display: flex;
+  height: 531px;
+}
+
+.bonus-div-text {
+  text-align: left;
+  padding: 4%;
+  background-color: #e4eefc;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+.bonus-div-text > h3 {
+  font-size: 40px;
+}
+
+.bonus-div-text p {
+  font-size: 1rem;
+  width: 70%;
+}
